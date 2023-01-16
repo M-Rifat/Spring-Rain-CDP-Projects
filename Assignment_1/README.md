@@ -8,6 +8,7 @@ All information are gatherd from this website.</h3>
            aside  ,
            details  ,
            figure  ,
+           select  ,
            hgroup  ,
            mark  ,
            time  ,
