@@ -1,5 +1,5 @@
 <h3>I got the idea from https://www.technewsworld.com/.
-All information are gatherd from this website.</h3>
+I gathered information from this website and tried to make a sequential structure like that.</h3>
 
 <h1>Used Tag : </h1><h2> header  ,
            nav  ,
@@ -12,6 +12,7 @@ All information are gatherd from this website.</h3>
            hgroup  ,
            mark  ,
            time  ,
+           span  ,
            wbr  ,
            video  ,
            footer and so on.</h2>
