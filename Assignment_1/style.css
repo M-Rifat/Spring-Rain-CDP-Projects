@@ -102,11 +102,10 @@ main a:hover{
 
 .main-left-content > h2{
     color: #000120;
-    padding: 10px 0 0px 40px;
+    padding: 10px 0 0 40px;
 }
 
 .main-left-content h3{
-    color: #000120;
     padding: 10px 0;
     font-size: 18px;
 }
@@ -135,9 +134,16 @@ main a:hover{
 .main-right-content{
     padding: 30px 10px;
 }
-
-.main-right-content > h2{
-    padding: 10px 0 5px 0;
+.news-head{
+    color: #000120;
+    display: flex;
+    padding: 10px 0 0 0;
+}
+.news-head h2{
+    margin-right: 10px;
+}
+.news-head select{
+    background-color: #bcbedc;
 }
 
 .main-right-content article{
