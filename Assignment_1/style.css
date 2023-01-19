@@ -101,13 +101,14 @@ main a:hover{
 }
 
 .main-left-content > h2{
-    padding: 10px 0 2px 40px;
+    color: #000120;
+    padding: 10px 0 0px 40px;
 }
 
 .main-left-content h3{
+    color: #000120;
     padding: 10px 0;
     font-size: 18px;
-    font-family: var(--heading);
 }
 
 .main-left-content p{
@@ -247,6 +248,7 @@ main a:hover{
     margin: 0 30px;
 }
 .current-news h2{
+    font-size: 20px;
     margin-left: 5px;
     color: #7ac64d;
 }
