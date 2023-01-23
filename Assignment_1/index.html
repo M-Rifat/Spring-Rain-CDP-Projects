@@ -23,8 +23,8 @@
         <li><a href="#">MOBILE TECH</a></li>
         <li><a href="#">SECURITY</a></li>
         <li><a href="#">TECH BLOG</a></li>
-        <li><a href="#">TECHNOLOGY</a></li>
         <li><a href="#">MORE ></a></li>
+        <li><a href="#">SIGN IN</a></li>
        </ul>
     </nav>
 
@@ -84,11 +84,10 @@
             <section class="main-right-content">
                 <div class="news-head">
                     <h2>Find News</h2>
-                    <select>
-                        <option>Just in</option>
-                        <option>Top</option>
-                        <option>Most Viewd</option>
-                        <option>Most Liked</option>
+                    <select id="selectBox" onChange="changeFunc();">
+                        <option value="1">Just in</option>
+                        <option value="2">Top</option>
+                        <option value="3">Most Viewd</option>
                     </select>
                 </div>
                 
@@ -211,10 +210,10 @@
 
                 <div class="footer-right">
                     <h2>MY ACCOUNT</h2>
-                    <a href="#">Sign In</a>
+                    <a href="#">Profile</a>
                     <a href="#">Careers</a>
                     <a href="#">Help</a>
-                    <a href="#">Subscribe</a>
+                    <input type = "text" placeholder = "User Name">
                     <div class="submit">
                         <input type = "text" placeholder = "Email Address">
                     <button>Sign Up</button>
@@ -225,5 +224,8 @@
 
             <p>Copyright &copy; 2023 All rights reserved | TELECAST</p>
         </footer>
+
+        <script src="script.js"></script>
+        
     </body>
 </html>
