@@ -122,6 +122,7 @@ signIn.onclick = function myFunction() {
 const signOut = document.getElementsByTagName("li")[8];
 signOut.onclick = function () {
   setCookie("username", "", -1);
+  localStorage.removeItem('username');
   location.reload(true);
 }
 
@@ -261,8 +262,14 @@ function getCookie(cname) {
 }
 function isLoggedIn() {
   let uname = getCookie("username");
+
   if (uname == localStorage.username) {
     signIn.innerHTML = uname;
+    signIn.style.color = "cyan";
+    signIn.style.pointerEvents = 'none';
+  }
+  else if(localStorage.username){
+    signIn.innerHTML = localStorage.username;
     signIn.style.color = "cyan";
     signIn.style.pointerEvents = 'none';
   }
