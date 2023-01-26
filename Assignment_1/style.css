@@ -13,6 +13,7 @@ ul{
 }
 
 a{
+    cursor: pointer;
     text-decoration: none;
     color: #000;
 }
@@ -193,7 +194,7 @@ main a:hover{
     font-size: 13px; 
     color: rgb(52, 49, 49);
 }
-.main-right-content button{
+.main-right-content .moreNews{
     margin-left: 600px;
     margin-top: 10px;
     padding: 7px;
@@ -354,4 +355,20 @@ footer h2{
 }
 .footer-right button{
     background-color: #aad0a7;
+}
+
+/*search-box*/
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.search input{
+    width: 200px;
+    height: 20px;
+}
+.search button{
+    height: 20px;
+    width: 20px;
 }
